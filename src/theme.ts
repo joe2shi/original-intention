@@ -3,7 +3,7 @@ import logo from './assets/images/logo.svg'
 const theme = {
   app: {
     logo: logo,
-    name: 'Cabbage',
+    name: 'Original',
     isDark: true,
     contentLayoutNav: 'vertical', // support "vertical" and "horizontal"
     routeTransition: 'scroll-x-transition',
@@ -17,24 +17,24 @@ const theme = {
     light: {
       background: '#FFFFFF',
       surface: '#FFFFFF',
-      primary: '#9155FD',
+      primary: '#9155fd',
+      secondary: '#8a8d93',
       accent: '#0d6efd',
-      secondary: '#8A8D93',
-      success: '#56CA00',
+      error: '#F83E70',
       info: '#16B1FF',
-      warning: '#FFB400',
-      error: '#FF4C51'
+      success: '#3CD1C2',
+      warning: '#FFAA2C'
     },
     dark: {
-      background: '#000',
-      surface: '#000',
-      primary: '#9155FD',
+      background: '#000000',
+      surface: '#000000',
+      primary: '#9155fd',
+      secondary: '#8a8d93',
       accent: '#0d6efd',
-      secondary: '#8A8D93',
-      success: '#56CA00',
+      error: '#F83E70',
       info: '#16B1FF',
-      warning: '#FFB400',
-      error: '#FF4C51'
+      success: '#3CD1C2',
+      warning: '#FFAA2C'
     }
   }
 }

@@ -19,14 +19,18 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@mdi/font": "^6.9.96",
     "pinia": "^2.0.14",
     "vue": "^3.2.36",
+    "vue-i18n": "9.2.0-beta.37",
     "vue-router": "^4.0.16",
-    "vue3-perfect-scrollbar": "^1.6.0"
+    "vue3-perfect-scrollbar": "^1.6.0",
+    "vuetify": "3.0.0-beta.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
+    "@intlify/vite-plugin-vue-i18n": "^3.4.0",
     "@types/node": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
@@ -42,6 +46,7 @@
     "postcss": "^8.4.14",
     "postcss-html": "^1.5.0",
     "prettier": "^2.7.1",
+    "sass": "^1.53.0",
     "stylelint": "^14.9.1",
     "stylelint-config-html": "^1.1.0",
     "stylelint-config-prettier": "^9.0.3",
@@ -53,6 +58,7 @@
     "stylelint-scss": "^4.3.0",
     "typescript": "^4.7.4",
     "vite": "^2.9.13",
+    "vite-plugin-vuetify": "1.0.0-alpha.12",
     "vue-tsc": "^0.38.2"
   },
   "husky": {

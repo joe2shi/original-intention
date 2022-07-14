@@ -9,8 +9,5 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="crm-dashboard-container">
-    CRM Dashboard
-    <div>{{ $t('hello') }}</div>
-  </div>
+  <div class=""></div>
 </template>

@@ -13,7 +13,6 @@
     "lib": ["esnext", "dom"],
     "skipLibCheck": true,
     "baseUrl": "./",
-    "typeRoots": ["./node_modules/@types/", "./types"],
     "paths": {
       "@/*": ["src/*"],
       "#/*": ["types/*"]
